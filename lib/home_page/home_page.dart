@@ -33,6 +33,19 @@ class HomePage extends StatelessWidget{
               height: height,
               child: Column(
                 children: <Widget>[
+                  Text(
+                    "Meals for this week:"
+                  ),
+                  Expanded(
+                    child: Container(
+                      color: Colors.red,
+                    ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      color: Colors.green,
+                    ),
+                  )
 
                 ],
               ),
