@@ -29,12 +29,18 @@ class HomePage extends StatelessWidget{
             left: 0,
             right: 0,
             child: Container(
-              color: Colors.teal,
               height: height,
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  Text(
-                    "Meals for this week:"
+                  Padding(
+                    padding: const EdgeInsets.only(
+                        bottom:8.0,
+                    left: 32,
+                    right: 32),
+                    child: Text(
+                      "Meals for this week:"
+                    ),
                   ),
                   Expanded(
                     child: Container(
